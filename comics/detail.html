@@ -1,0 +1,150 @@
+<html itemscope itemtype="http://schema.org/Article">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Comic Title</title>
+        <meta name="description" content="Description of comic">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="../css/main.min.css">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+        <link href="http://example.com" rel="canonical" />
+
+        <!-- open graph -->
+
+        <meta property="og:title" content="Comic Title" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="http://example.com/comic/image.jpg" />
+        <meta property="og:url" content="http://example.com/comic/title.html" />
+        <meta property="og:site_name" content="Example" />
+        <meta property="og:description" content="Comic Description" />
+        <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+        <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" />
+        <meta property="article:section" content="Article Section" />
+        <meta property="article:tag" content="Article Tag" />
+
+        <link rel="author" href="https://plus.google.com/+exampleAuthor/posts"/>
+
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="Comic Title" />
+        <meta itemprop="description" content="Comic Description" />
+        <meta itemprop="image" content="http://example.com/comic/image.jpg" />
+
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@sitename" />
+        <meta name="twitter:title" content="Comic Title" />
+        <meta name="twitter:description" content="Comic Description" />
+        <meta name="twitter:creator" content="@driedtoast">
+        <meta name="twitter:image:src" content="http://example.com/comic/title.html" />
+
+    </head>
+
+<body>
+
+<!-- navigation -->
+
+<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+ <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+ <a itemprop="item" href="https://example.com/widgets">
+ <span itemprop="name">Widgets</span></a>
+ <meta itemprop="position" content="1" />
+ </li>
+› <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+ <a itemprop="item" href="https://example.com/widgets/large">
+ <span itemprop="name">Large Widgets</span></a>
+ <meta itemprop="position" content="2" />
+ </li>
+</ol>
+
+<!--
+
+Convert to having an Aside for series blurb
+
+Ad Section?
+
+Convert to section / header / etc... tag names for clarity and structure
+
+-->
+
+<div itemscope itemtype="http://schema.org/ComicIssue">
+
+    <h1 itemprop="name">Spinal Tap</h1>
+
+    <div><span itemprop="series" itemscope itemtype="http://schema.org/PeriodicalSeries"><span itemprop="name">Comic Name</span> (<span itemprop="startYear">1999</span>)</span> #<span itemprop="issueNumber">673</span></div>
+    <img src="http://x.annihil.us/u/prod/marvel/i/mg/7/00/4ea85e808c079/portrait_xlarge.jpg" width="150" height="225" itemprop="image"
+      alt="Key word"
+       />
+    <div itemprop="description">SPIDER-ISLAND: EPILOGUE It’s the morning after for New York City.
+                                See how everything has changed for Peter Parker and the spider-crew now that he’s once again the world’s only Spider-Man or is he?</div>
+
+        <p><span itemprop="writer" itemscope itemtype="http://schema.org/Person">Dan Slott</span></p>
+        <p><span itemprop="penciler" itemscope itemtype="http://schema.org/Person">Stefano Caselli</span></p>
+        <p><span itemprop="colorist" itemscope itemtype="http://schema.org/Person">Frank Martin</span></p>
+        <p><span itemprop="letterer" itemscope itemtype="http://schema.org/Person">Joe Caramagna</span></p>
+        <p><span itemprop="editor" itemscope itemtype="http://schema.org/Person">Stephen Wacker</span><p>
+        <p><span itemprop="datePublished">November 02, 2011</span></p>
+        <link itemprop="format" >Comic</link>
+
+</div>
+
+
+
+
+<!-- based on cbml -->
+<div type="panelGrp" xml:id="eg_002">
+    <cbml:panel characters="#david #samson">
+        <cbml:balloon type="speech" who="#david">
+            What a funny looking truck outside here…
+            Never saw one like it before!
+        </cbml:balloon>
+        <cbml:balloon type="speech" who="#samson">
+            That’s strange! What’s it look
+            like?
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            You’re right--I never saw one like this
+            before!
+        </cbml:balloon>
+        <cbml:balloon type="speech" who="#david">
+            Wonder what it’s doing here?
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            What the--!
+        </cbml:balloon>
+        <cbml:balloon type="speech" who="#david">
+            Gas---Help!
+        </cbml:balloon>
+    </cbml:panel>
+    <cbml:panel characters="#samson #david">
+        <cbml:balloon type="speech" who="#samson">
+            No time to look for doors now!
+        </cbml:balloon>
+        <sound>Crash!</sound>
+        <fw place="lower-left" type="pageNum">1</fw>
+         <note resp="#jawalsh" type="panelDesc">
+            Set against an abstract background,
+            a sequence of four views of the Hulk's and
+            Banner's head depicts the Hulk's transition
+            back to Bruce Banner. </note>
+        <cbml:caption>
+            Thus, there and then--<lb/>
+            suddenly--uncontrollably--<lb/>
+            the awesome
+            <emph>transformation</emph><lb/>
+            starts--until--
+        </cbml:caption>
+    </cbml:panel>
+</div>
+
+
+</body>
+</html>

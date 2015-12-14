@@ -1,0 +1,5 @@
+node_modules/*
+themes/main/static/css/*
+themes/main/static/js/*
+src/css/main.css
+src/css/main.min.css

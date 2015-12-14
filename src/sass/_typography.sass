@@ -1,0 +1,80 @@
+
+
+@import "https://fonts.googleapis.com/css?family=Buda:300"
+@import "https://fonts.googleapis.com/css?family=Lato:400,300"
+
+// Comic
+@import "https://fonts.googleapis.com/css?family=Architects+Daughter"
+@import "https://fonts.googleapis.com/css?family=Boogaloo"
+@import "https://fonts.googleapis.com/css?family=Devonshire"
+@import "https://fonts.googleapis.com/css?family=Oregano:400,400italic"
+
+// Game
+@import "https://fonts.googleapis.com/css?family=Gruppo"
+@import "https://fonts.googleapis.com/css?family=Orbitron:400,500,700"
+@import "https://fonts.googleapis.com/css?family=Yantramanav:400,700"
+
+body
+  font-family: 'Lato', sans-serif
+  font-weight: 300
+
+h1
+  font-weight: 400
+  font-size: 1.5em
+h2
+  font-size: 1.2em
+
+header
+  font:
+    family: 'Yantramanav', sans-serif
+    variant: small-caps
+    size: 1.2em
+
+  a
+    font-weight: 700
+    text-decoration: none
+    color: $anchor-color
+
+    &:link, &:visited, &:active
+      text-decoration: none
+    &:hover
+      text-decoration: underline
+
+blockquote
+  font-family: 'Buda', cursive
+  font-size: 1.2em
+  border-left: $blockquote-border-color
+  border-left-width: 4px
+  border-left-style: solid
+  padding-left: 4px
+  margin-left: 8px
+
+.game
+  font-family: 'Gruppo', cursive
+
+  h1, h2, h3, h4
+    font-family: 'Orbitron', sans-serif
+    font-weight: 700
+    margin: 0
+    margin-top: 4px
+    margin-bottom: 2pxBoogaloo
+
+  blockquote
+    font-family: 'Orbitron', sans-serif
+    font-weight: 400
+
+.comic
+  blockquote
+    font-family: 'Oregano', cursive
+    font-style: italic
+    padding-left: 8px
+  h1, h2, h3, h4
+    margin: 0
+    font-family: 'Architects Daughter', cursive
+
+  .bubble
+    font-family: 'Boogaloo', cursive
+    border: 1px darkgray solid
+    border-radius: 8px
+    padding: 4px
+    width: 100px
