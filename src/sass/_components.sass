@@ -32,3 +32,23 @@ dl[itemtype="http://schema.org/Person"] > dd[itemprop="gender"]
 
 dl[itemtype="http://schema.org/Person"] > dd[itemprop="jobTitle"]
   font-weight: bold
+
+// comic detail and series episodes
+
+[itemprop="series"], [itemtype="http://schema.org/ComicIssue"]
+  [itemprop="name"]
+    font-weight: 300
+    font-size: 2em
+  [itemprop="description"]
+    font-weight: 200
+    font-size: 1em
+  [itemprop="issueNumber"]
+    font-size: .5em
+    font-color: #c0c0c0
+  [itemprop="startYear"]
+    font-size: .5em
+
+// common components
+[itemtype="http://schema.org/BreadcrumbList"]
+  [itemprop="itemListElement"]
+    font-size: .5em
